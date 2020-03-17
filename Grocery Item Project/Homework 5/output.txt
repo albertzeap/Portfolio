@@ -1,0 +1,7 @@
+PASSED numberOfWords: Frankenstein   : expected and actual '7195'
+PASSED wordCount: Frankenstein       : expected and actual '24'
+PASSED wordCount: life               : expected and actual '114'
+PASSED wordCount: feared             : expected and actual '13'
+PASSED wordCount: the                : expected and actual '4187'
+PASSED mostFrequentWord: Frankenstein: expected and actual 'the'
+PASSED maxBucketSize: Frankenstein   : expected and actual '7'

@@ -1,0 +1,52 @@
+My Grocery List
+    0:  UPC: "eggs", Brand: "", Product: "", Price: $0
+    1:  UPC: "milk", Brand: "", Product: "", Price: $0
+    2:  UPC: "hot dogs", Brand: "", Product: "", Price: $0
+    3:  UPC: "bread", Brand: "", Product: "", Price: $0
+
+My roommate's Grocery List
+    0:  UPC: "potato chips", Brand: "Ruffles", Product: "", Price: $0
+    1:  UPC: "potato chips", Brand: "Frito Lays", Product: "", Price: $0
+    2:  UPC: "beer", Brand: "Bud Lite", Product: "", Price: $0
+    3:  UPC: "pretzels", Brand: "", Product: "", Price: $0
+
+Combined Grocery Lists
+    0:  UPC: "eggs", Brand: "", Product: "", Price: $0
+    1:  UPC: "milk", Brand: "", Product: "", Price: $0
+    2:  UPC: "hot dogs", Brand: "", Product: "", Price: $0
+    3:  UPC: "butter", Brand: "Lakes 'Ole", Product: "", Price: $0
+    4:  UPC: "bread", Brand: "", Product: "", Price: $0
+    5:  UPC: "bananas", Brand: "", Product: "", Price: $0
+    6:  UPC: "apples", Brand: "", Product: "", Price: $0
+    7:  UPC: "potato chips", Brand: "Ruffles", Product: "", Price: $0
+    8:  UPC: "potato chips", Brand: "Frito Lays", Product: "", Price: $0
+    9:  UPC: "pretzels", Brand: "", Product: "", Price: $0
+
+
+Expected results:
+    0:  UPC: "eggs", Brand: "", Product: "", Price: $0
+    1:  UPC: "milk", Brand: "", Product: "", Price: $0
+    2:  UPC: "hot dogs", Brand: "", Product: "", Price: $0
+    3:  UPC: "butter", Brand: "Lakes 'Ole", Product: "", Price: $0
+    4:  UPC: "bread", Brand: "", Product: "", Price: $0
+    5:  UPC: "bananas", Brand: "", Product: "", Price: $0
+    6:  UPC: "apples", Brand: "", Product: "", Price: $0
+    7:  UPC: "potato chips", Brand: "Ruffles", Product: "", Price: $0
+    8:  UPC: "potato chips", Brand: "Frito Lays", Product: "", Price: $0
+    9:  UPC: "pretzels", Brand: "", Product: "", Price: $0
+
+
+Actual results:
+    0:  UPC: "eggs", Brand: "", Product: "", Price: $0
+    1:  UPC: "milk", Brand: "", Product: "", Price: $0
+    2:  UPC: "hot dogs", Brand: "", Product: "", Price: $0
+    3:  UPC: "butter", Brand: "Lakes 'Ole", Product: "", Price: $0
+    4:  UPC: "bread", Brand: "", Product: "", Price: $0
+    5:  UPC: "bananas", Brand: "", Product: "", Price: $0
+    6:  UPC: "apples", Brand: "", Product: "", Price: $0
+    7:  UPC: "potato chips", Brand: "Ruffles", Product: "", Price: $0
+    8:  UPC: "potato chips", Brand: "Frito Lays", Product: "", Price: $0
+    9:  UPC: "pretzels", Brand: "", Product: "", Price: $0
+
+
+Test results:  PASS
