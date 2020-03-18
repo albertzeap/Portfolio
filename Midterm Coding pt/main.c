@@ -122,8 +122,8 @@ void tests_square() {
 
 
 int main(int argc, const char* argv[]) {
- count();
  tests_square();
+ count();
  return 0;
 } 
 
